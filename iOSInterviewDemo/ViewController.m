@@ -19,7 +19,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.array = @[@"1. Runloop", @"2"];
+    self.array = @[@"1. Runloop",
+                   @"2. Blocks",
+                   @"3. Propertys"];
     [self.tableView reloadData];
 }
 
